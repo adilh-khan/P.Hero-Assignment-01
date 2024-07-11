@@ -1,0 +1,133 @@
+/* Shared CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+.btn {
+    
+    border-radius: 8px;
+    color: white;
+    background: black;
+    font-size: 15px;
+    font-weight: 550; 
+    padding: 20px 24px 20px 24px;
+}
+.wwdc-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+.wwdc-description {
+    color: #0D1321;
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-bottom: 32px;
+}
+.wwdc-btn {
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    background-color: transparent;
+    padding: 12px 20px 12px 20px;
+}
+.wwdc-btn > a {
+    color: #0D1321;
+    text-decoration: none;
+}
+/* Main CSS */
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+.nav button a {
+    color: black;
+    text-decoration: none;
+}
+/* Banner CSS */
+.banner {
+    width: 1440;
+    height: 650px;
+    background-image: url(../assets/Hero-bg.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-img {
+    margin-bottom: 24px;
+}
+.banner-title {
+    margin-bottom: 24px;
+}
+.banner-description {
+    margin-bottom: 32px;
+    text-align: center;
+}
+.banner-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+    line-height: 68px;
+    text-align: center;
+}
+/* Why WDev CSS */
+.why-wdev {
+    width: 80%;
+    margin: 80px auto;
+    border-radius: 16px;
+    padding: 80px 97px 80px 97px;
+    background: rgba(13, 19, 33, 0.02);
+    
+}
+.wwd-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.wwd-info-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+.wwd-info-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.wwd-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.wwd-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.wwdc-contents {
+    display: flex;
+    flex-direction: column;
+}
