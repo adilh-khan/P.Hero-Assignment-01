@@ -35,6 +35,7 @@
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    margin-bottom: 36px;
 }
 .wwdc-title {
     color: rgba(13, 19, 33, 0.7);
@@ -158,4 +159,107 @@
     padding: 32px;
     border: 2px solid #0D1321;
 }
-
+/* Current Target CSS */
+.current-target {
+    width: 1334px;
+    margin: 80px auto;
+}
+.ctarget-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.ctargetcard-container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.ctarget-card {
+    width: 364px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    gap: 15px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);   
+}
+.ctargetc-title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+.ctargetc-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.ctargetc-ancor {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-decoration-line: underline;
+}
+/* New Target CSS */
+.new-target {
+    width: 1334px;
+    margin: 80px auto;
+}
+.ntarget-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.ntargetcard-container {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.ntarget-card {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    gap: 15px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);   
+}
+.ntargetc-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.ntargetc-title {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+.ntargetc-description {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.ntargetc-ancor {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-decoration-line: underline;
+}
